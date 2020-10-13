@@ -33,5 +33,10 @@
 </ol>
 <h3 id="installation">Installation</h3>
 <h4>Python Installation</h4>
-<p>I worked in Anaconda Platform in this project, you can visit <a href='https://www.anaconda.com/products/individual'>this website</a> to download anconda's individual edition</p>
+<p>I worked in Anaconda Platform which you can visit by clicking <a href='https://www.anaconda.com/products/individual'>this website</a> to download anconda's individual edition</p>
 <p>Please make a saparate enviroment before jumping into code</p> 
+<p>Please install all the following pakages using <i>"pip install"</i>
+<ul><li>sklearn</li><li>pandas</li><li>numpy</li><li>flask</li><li>matplotlib</li><li>seaborn</li></ul>
+
+<h2>this page is currently <i>Under Development....</i></h2>
+
