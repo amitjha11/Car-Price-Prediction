@@ -21,7 +21,7 @@
 <h4>Dataset used:</h4>
 <p>I have used <a href="https://www.kaggle.com/nehalbirla/vehicle-dataset-from-cardekho">Car Dekho</a> Data from <a href='https://www.kaggle.com/'>Kaggle</a>.</p>
 <p>Here is dataset snippet</p>
-<img src="capture.png"/>
+<img src="data.png"/>
 <h4>Motivation:</h4>
 <p>I created this app mainly for for the self learning purpose to make myself better in creating and building Machine Learning Model. One day I browse the Kaggle website and found this dataset and on that day I started analyzing this dataset and decided to make a prediction app based on this dataset.</p>
 
