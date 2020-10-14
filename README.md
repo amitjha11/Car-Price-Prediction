@@ -8,9 +8,9 @@
 <li><a href="#model">Model Creation</a></li>
 <li><a href="#flaskapp">Flask App Creation</a></li>
 <li><a href="#deployment">Deployment</a></li>
-<li><a href="#">Conclusion and Further Development</a></li>
-<li><a href="#">Technologies Used</a></li>
-<li><a href="#">Credits</a></li>
+<li><a href="#cfd">Conclusion and Further Development</a></li>
+<li><a href="#technologyused">Technologies Used</a></li>
+<li><a href="#credits">Credits</a></li>
 </ul>
 <h3 id="demo">Demo</h2>
 <img src="images/demo.png"/>
@@ -78,11 +78,28 @@
 <p><b>requriments.txt</b> is a text file containing all our packages name that we used in this project</p>
 <p>We also require <b>runtime.txt</b> file which is basically tell heroku server to download specific python version on the server which is given in the text file</p>
 <p>After all these formalities we are ready to deploy our model just visit Heroku website and create this app </p>
+<h3 id='cfd'>Conclusion and Further Devlopment</h3>
+<p>After creating this model which seems to give good accuracy on new data and working without much problem</p>
+<p>But following are the points that we can used to further developed the product</p>
+<ul>
+<li>Firstly it's not available offline where we might work in future (By using some advance cloud services).</li>
+<li>
+<li>We may improve the accuracy when we get the new data</li>
+</ul>
+<p>Note that if anyone want to suggest me anything please ping me on linkedIn. It's very helpful for me</p>
 <h3 id='technologyused'>Technologies Used</h3>
 <hr/>
-<p>
-<img src='images/python_logo.png' width='100'/>&nbsp;&nbsp;
+<p align='center'>
 <img src='images/numpy logo.png' width='100'/>&nbsp;&nbsp;
 <img src='images/pandas logo.png' width='100'/>&nbsp;&nbsp;
 <img src='images/sklearnlogo.png' width='100'/>&nbsp;&nbsp;
+<img src='images/flask logo.png' width='100'/>&nbsp;&nbsp;
+<img src='images/heroku logo.png' width='100'/>&nbsp;&nbsp;
+<img src='images/htmlcss logo.png' width='100'/>&nbsp; &nbsp;
+<img src='images/Bootstrap-Logo.png' width='100'/>&nbsp; &nbsp;
 </p>
+<h3 id='credits'>Credits</h3>
+<p>As I am a self learner my special thanks goes to <a href='https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig'>Krish Naik</a> sir. He is a brilliant teacher, data scientist and auther.</p>
+<p>I also thanks to Andrew Ng sir. He also help me a lot to learn the fundamental mathamatics behind the machine learning algorithms </p> 
+
+
