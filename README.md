@@ -6,7 +6,7 @@
 <li><a href="#technical">Technical Aspects</a></li>
 <li><a href ="#installation">Installation</a></li>
 <li><a href="#model">Model Creation</a></li>
-<li><a href="#">Flask App Creation</a></li>
+<li><a href="#flaskapp">Flask App Creation</a></li>
 <li><a href="#">Deployment</a></li>
 <li><a href="#">Conclusion and Further Development</a></li>
 <li><a href="#">Technologies Used</a></li>
@@ -37,7 +37,7 @@
 <p>I worked in Anaconda Platform which you can visit by clicking <a href='https://www.anaconda.com/products/individual'>this website</a> to download anconda's individual edition</p>
 <p>Please make a saparate enviroment before jumping into code</p> 
 <p>Please install all the following pakages using <i>"pip install"</i>
-<ul><li>sklearn</li><li>pandas</li><li>numpy</li><li>flask</li><li>matplotlib</li><li>seaborn</li></ul>
+<ul><li>sklearn</li><li>pandas</li><li>numpy</li><li>flask</li><li>matplotlib</li><li>seaborn</li><li>jsonify</li><li>requests</li></ul>
 
 <h3 id="model">Model Creation</h3>
 <p>Before training our model we need to clean and analyze our dataset. Let's see how we did it</p>
@@ -55,3 +55,20 @@
 <p>Let's check the important feature in the dataset.</p>
 <img src='images/feature_important.png'/>
 <p>So clearly it shows that <i>"Owner"</i> feature not at all important for our model training so we decided to remove it from the training data. As it only increases the size without giving any value.</p>
+<p>Now after doing all Data Analysis we are going for training our model. Let's split our data into train and test set.</p>
+<img src='images/model_training.png'/>
+<p>Note that we are using RandomizedSearchCV for Hyperparameter Tuning, and because of this model get a good accuracy.</p>
+<p>Let's See the accuracy of our Model</p>
+<img src='images/accuracy.png'/>
+<p>Let's see the scatter plot between prediction and real value</p>
+<img src='images/prediction_distribution.png'/>
+<p>so it looks fine and prediction should be accuratly capture as the regression line is following the plotted points</p>
+<p>Hence our model is trained</p>
+<h3 id='flaskapp'>Flask App Creation</h3>
+<p>First we need to create an HTML file in a templetes folder for our flask's app.py file; as it detect all the html files from that folder itself</p>
+<p>You can check my template folder for that file</p>
+<p>Then we need to create a flask app which capture all the inputs from the user and then preprocess all the data collected from the user and then give the data to the model for making prediction</p>
+<p>You can check my app.py file for the code</p>
+
+
+
