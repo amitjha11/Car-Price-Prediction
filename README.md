@@ -7,7 +7,7 @@
 <li><a href ="#installation">Installation</a></li>
 <li><a href="#model">Model Creation</a></li>
 <li><a href="#flaskapp">Flask App Creation</a></li>
-<li><a href="#">Deployment</a></li>
+<li><a href="#deployment">Deployment</a></li>
 <li><a href="#">Conclusion and Further Development</a></li>
 <li><a href="#">Technologies Used</a></li>
 <li><a href="#">Credits</a></li>
@@ -65,10 +65,22 @@
 <p>so it looks fine and prediction should be accuratly capture as the regression line is following the plotted points</p>
 <p>Hence our model is trained</p>
 <h3 id='flaskapp'>Flask App Creation</h3>
-<p>First we need to create an HTML file in a templetes folder for our flask's app.py file; as it detect all the html files from that folder itself</p>
-<p>You can check my template folder for that file</p>
+<p>First we need to create the HTML file in a templetes folder for our flask's app.py file; as it detect all the html files from that folder itself.</p>
+<p>You can check my template folder for that file.</p>
 <p>Then we need to create a flask app which capture all the inputs from the user and then preprocess all the data collected from the user and then give the data to the model for making prediction</p>
-<p>You can check my app.py file for the code</p>
+<p>You can check my <b>app.py</b> file for the code.</p>
 
+<h3 id='deployment'>Deployment</h3>
+<p>We are using Heroku app for deploying our flask app.</p>
+<p><b>Note that we need procfile, requriments.txt and runtime.txt file before proceeding for the deployment.</b></p>
 
-
+<p><b>procfile</b> contain gunicorn code which  is a Python Web Server Gateway Interface HTTP server. That is used to pass our python code to http server.</p>
+<p><b>requriments.txt</b> is a text file containing all our packages name that we used in this project</p>
+<p>We also require <b>runtime.txt</b> file which is basically tell heroku server to download specific python version on the server which is given in the text file</p>
+<p>After all these formalities we are ready to deploy our model just visit Heroku website and create this app </p>
+<h3 id='technologyused'>Technologies Used</h3>
+<hr/>
+<img src='images/python_logo.png' width='100'/>&nbsp;&nbsp;&nbsp;
+<img src='images/numpy logo.png' width='100'/>
+<img src='images/pandas logo.png' width='100'/>&nbsp;&nbsp;
+<img src='images/sklearnlogo.png' width='100'/>&nbsp;&nbsp;
