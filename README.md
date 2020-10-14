@@ -81,8 +81,8 @@
 <h3 id='technologyused'>Technologies Used</h3>
 <hr/>
 <p>
-<img src='images/python_logo.png' width='100'/>&nbsp;&nbsp;&nbsp;
-<img src='images/numpy logo.png' width='100'/>
+<img src='images/python_logo.png' width='100'/>&nbsp;&nbsp;
+<img src='images/numpy logo.png' width='100'/>&nbsp;&nbsp;
 <img src='images/pandas logo.png' width='100'/>&nbsp;&nbsp;
 <img src='images/sklearnlogo.png' width='100'/>&nbsp;&nbsp;
 </p>
